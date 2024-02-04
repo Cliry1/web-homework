@@ -1,0 +1,81 @@
+@import "./reset.css";
+html {
+  scroll-behavior: smooth;
+}
+section{
+  margin-right: auto;
+  margin-left: auto;
+}
+header{
+  margin-right: auto;
+  margin-left: auto;
+}
+.container{
+  margin: 0 auto;
+}
+body{
+  background-color: #f6f6f6;
+  color: #1b1b1b;
+}
+
+.nav-list{
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  font-size: 24px
+}
+.main-title{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+.list-img{
+display: flex;
+gap: 40px;
+justify-content: center;
+}
+.main-text{
+  width: 400px;
+  margin: 0 auto 45px;
+}
+.container .link-swap-page{
+  font-size: 40px;
+  font-weight: 600;
+}
+.main-img{
+  width: 200px;
+  height: 250px;
+}
+#anchor{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.anchor-text{
+  width: 400px;
+  margin: 0 auto;
+}
+.second-section{
+  height: 100vh;
+}
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 16px;
+  }
+  .section {
+    padding: 16px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
