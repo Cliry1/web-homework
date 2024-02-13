@@ -15,7 +15,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <style>
+    .main-text::first-line{
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  </style>
   <title>Gallery</title>
   <meta>
 </head>
@@ -37,10 +42,12 @@
       </nav>
   </header>
   <main>
-    <section>
+    <section class="section-gallery">
       <div class="container">
-        <h1 class="main-title">Gallery</h1>
-        <p class="main-text">Welcome to our gallery! Explore a stunning collection of artwork and photography created by
+        <span class="container-title">
+          <h1 class="main-title">Gallery</h1>
+        </span>
+        <p class="main-text" id="main-text" style="width: 460px;">Welcome to our gallery!<br> Explore a stunning collection of artwork and photography created by
           talented artists from around the world. Immerse yourself in a visual journey filled with creativity and
           inspiration. Whether you're a seasoned art
           enthusiast or just starting to appreciate the beauty of visual arts, our gallery has something for everyone.
